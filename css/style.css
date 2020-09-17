@@ -1,0 +1,98 @@
+body{
+		
+}
+#bgHead{
+	
+	background-color: #3498db;
+}
+	
+#head{
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #2980b9;
+	
+}
+
+.navbar-nav > li > a{
+	color: #fff;
+
+	display: block;
+	padding: 14px 10px;	
+}
+.navbar-nav > li > a:hover{
+	background-color:#2980b9; 
+}
+.dropdown-menu{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.dropdown .dropdown-menu > a:nth-child(-n+2){
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #DCDCDC;
+	
+}
+.dropdown .dropdown-menu > a:hover{
+	background-color: #3498db; 
+}
+
+.custom-toggler.navbar-toggler{
+	border-color: #fff;
+}
+.glyphicon-menu-hamburger{
+	color: #fff;
+}
+ 
+#banner{
+	background: url(../images/wojciech-portnicki--z-VICqVo3U-unsplash.jpg) no-repeat 0 0;
+	height: 500px;
+	background-size: cover;
+	
+}
+#quote{
+	display: inline-block;
+	text-align: center;
+	background-color: rgba(255,255,255,0.6);
+}
+.row.height{
+	height: 450px;
+	
+}
+.section{
+	padding-top: 50px;
+}
+.col-2 .sectionHead{
+	text-align: center;
+	padding-top: 10px;
+}
+h3.sectionHead:after{
+	background-color: #696969;
+	content: "";
+	display: block;
+	width: 50px;
+	height: 3px;
+	margin: 15px auto;
+}
+.loginBox{
+	padding-top: 30px;
+	text-align: center;
+}
+
+.footerSection{
+	margin-top: 50px;
+	background-color: #2c3e50;
+	color: #fff;
+}
+h4.footHead{
+	font-weight: bold;
+}
+
+/*-----------admin--------*/
+
+.glyphicon.glyphicon-dashboard{
+   font-size: 30px;
+}

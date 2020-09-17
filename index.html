@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>project</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	
+</head>
+<body>
+
+<header  id="bgHead">
+<div class="container">
+<nav class="navbar navbar-expand-lg p-0">
+  <a class="navbar-brand" href="#" id="head"><img src="images/quality.png" width="40" height="40" class="d-inline-block" alt="logo">Student Feedback System</a>
+ 
+ <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="glyphicon glyphicon-menu-hamburger"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto lead">
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html"><i class="fas fa-info-circle"></i> About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="#" href="registration.html"><i class="far fa-registered"></i>  Registration</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fas fa-sign-in-alt"></i> Login
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Student</a>
+          <a class="dropdown-item" href="#">Faculty</a>
+          <a class="dropdown-item" href="#">Admin</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="far fa-address-book"></i> Contact</a>
+      </li>
+    </ul>
+</div>
+</nav>
+</div>
+</header>
+
+
+<div id="banner">
+	<div class="container">
+		<div class="row height">
+			<div class="col-4 mt-auto">
+				<p id="quote"> “We all need people who will give us feedback, That’s how we improve.”</p>
+			</div>
+		</div>
+</div>
+</div>
+
+<div class="container section">
+	<div class="row">
+		<div class="col-2 mx-auto px-0">
+			<h3 class="sectionHead">Login Area</h3>
+		</div>
+	</div>
+		<div class="row justify-content-around">
+		<div class="col-6 col-md-3">
+			<div class="loginBox">
+			<img src="images/management.png" width="50" height="50">
+			<h4>Admin</h4>
+			</div>
+			<form>
+  				<div class="form-group">
+					<label for="emailAdmin">Email address</label>
+    					<input type="email" class="form-control" id="emailAdmin"  placeholder="Enter email">
+    			</div>
+  				<div class="form-group">
+    				<label for="passwordAdmin">Password</label>
+    					<input type="password" class="form-control" id="passwordAdmin" aria-describedby="passwordDesc" placeholder="Password">
+						<small id="passwordDesc" class="form-text text-muted" style="visibility: hidden;">password must be at least 6 characters long</small>
+  				</div>
+  						<button type="submit" class="btn btn-outline-primary">Login</button>
+			</form>
+			
+		</div>
+		<div class="col-6 col-md-3">
+			<div class="loginBox">
+			<img src="images/teacher.png" width="50" height="50">
+			<h4>Faculty</h4>
+			</div>
+			<form>
+  				<div class="form-group">
+					<label for="emailFaculty">Email address</label>
+    					<input type="email" class="form-control" id="emailFaculty"  placeholder="Enter email">
+    			</div>
+  				<div class="form-group">
+    				<label for="passwordFaculty">Password</label>
+    					<input type="password" class="form-control" id="passwordFaculty" aria-describedby="passwordDesc" placeholder="Password">
+						<small id="passwordDesc" class="form-text text-muted" style="visibility: hidden;">password must be at least 6 characters long</small>
+  				</div>
+  						<button type="submit" class="btn btn-outline-primary">Login</button>
+			</form>
+		</div>
+		<div class="col-6 col-md-3">
+			<div class="loginBox">
+			<img src="images/graduated.png" width="50" height="50">
+			<h4>Student</h4>
+			</div>
+			<form>
+  				<div class="form-group">
+					<label for="emailStudent">Email address</label>
+    					<input type="email" class="form-control" id="emailStudent"  placeholder="Enter email">
+    			</div>
+  				<div class="form-group">
+    				<label for="passwordStudent">Password</label>
+    					<input type="password" class="form-control" id="passwordStudent" aria-describedby="passwordDesc" placeholder="Password">
+						<small id="passwordDesc" class="form-text text-muted" style="visibility: hidden;">password must be at least 6 characters long</small>
+  				</div>
+  						<button type="submit" class="btn btn-outline-primary">Login</button>
+			</form>
+		</div>
+
+	</div>
+</div>
+ <footer class="footerSection">
+ 	<div class="container">
+ 		<div class="row pt-4">
+ 			<div class="col-4 mr-auto">
+ 				<h4 class="footHead">About Us</h4>
+ 				<p>The Student feedback system is developed for the purpose of student and lectures feedback of faculty. The purpose of this feedback questionnaire is to gather information on your learning experience, as well as your response. When clicking the answer, you have to think of these questions as your subjective perceptions on various aspects of the course and the teacher's involved in the program.
+   				</p>
+ 			</div>
+ 			<div class="col-4 ml-auto">
+ 				<h4 class="footHead">Address</h4>
+ 				<address>
+ 					<b>Institute for Advanced Computing &amp; Software Development(IACSD)</b><br>
+ 					Dr. D. Y. Patil Educational Comlex,<br>
+ 					Sector No. 29, Behind Akurdi Railway Station,<br>
+ 					Pradhikaran Nigdi, Akurdi,<br> 
+ 					Pune 411044,Maharashtra
+ 				</address>
+ 			</div>
+ 		</div>
+ 	</div>
+ </footer>
+
+</body>
+</html>
