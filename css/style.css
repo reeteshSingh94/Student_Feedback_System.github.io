@@ -43,8 +43,10 @@ body{
 .custom-toggler.navbar-toggler{
 	border-color: #fff;
 }
-.glyphicon-menu-hamburger{
+
+.fas.fa-bars{
 	color: #fff;
+	font-size: 30px;
 }
  
 #banner{
